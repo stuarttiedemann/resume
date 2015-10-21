@@ -1,0 +1,101 @@
+body{
+	background-color: black;
+}
+.wrapper{
+	background-color: #ccc;
+	width:90%;
+	margin:auto;
+	padding:4.0% 2.5% 2.5% 2.5%;
+	overflow: hidden;
+	position: relative;
+}
+.resume-wrapper{
+	width:90%;
+	/*height:1200px;*/
+	background-color:black; 
+	margin:auto;
+	position: relative;
+	padding-top: 5%;
+	margin-top:5%;
+}
+.resume-header{
+	width: 100%;
+}
+.resume-header #main-callout h1{
+	width:50%;
+	border-bottom: 2px solid black;
+	text-align: center;
+	/*margin:auto;*/
+	float: right;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-right:2%;
+	font-size: 3em;
+	text-shadow:2px 2px 6px #000;
+}
+#profile-image img{
+	height:300px;
+	float: left;	
+	margin-left:4%;
+	margin-top:-10%;
+}
+.profile-wrapper{
+	width:70%;
+	float: left;
+}
+.profile-wrapper .experience h2{
+	color:#3b5a76;
+	padding-left:2%;
+}
+.profile-wrapper .experience p{
+	padding-left:2%;
+	background-color: white;
+	padding:2%;
+	border-radius: 3px;
+}
+.contact-wrapper{
+	width:30%;
+	float: right;
+	padding-top:5%;	
+}
+.contact-info{
+	text-align: center;
+}
+.lists{
+	text-align: center;
+}
+.lists ul li{
+	list-style: none;
+	margin-bottom:3%;
+	color:black;
+}
+.lists a{
+	text-decoration: none;
+	color:black;
+}
+.lists a:hover{
+	color:gray;
+}
+.fa{
+	color: black;
+}
+.fa:hover{
+	color:gray;
+}
+.contact-wrapper .lists h2{
+	text-align: center;
+	margin-top:5%;
+	color:#3b5a76;
+	border-bottom: 2px solid black;
+	margin-left: 4%;
+}
+footer{
+	width:100%;
+	text-align: center;
+	margin:auto;
+	color: white;
+	height: 50px;
+}
+footer p{
+	margin-top: 25px;
+}
